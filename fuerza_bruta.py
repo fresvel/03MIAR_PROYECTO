@@ -36,7 +36,7 @@ for o in range(0, 5):  # o = número de operadores (0 a 4)
             try:
                 val = eval(expr)
                 contador += 1
-                print(f"Process: {contador} -- expresión: {expr} -- valor {val}")
+                print(f"Process: {contador} || expresión: {expr}")
                 if isinstance(val, int) or val.is_integer():
                     val = int(val)
                     resultados.add(val)
@@ -55,7 +55,7 @@ for o in range(1, 5):  # total operadores incluyendo el unario inicial
                 try:
                     val = eval(expr)
                     contador += 1
-                    print(f"Process: {contador} -- expresión: {expr} -- valor {val}")
+                    print(f"Process: {contador} || expresión: {expr} ")
                     if isinstance(val, int) or val.is_integer():
                         val = int(val)
                         resultados.add(val)
@@ -69,7 +69,7 @@ for o in range(1, 5):  # total operadores incluyendo el unario inicial
                     try:
                         val = eval(expr)
                         contador += 1
-                        print(f"Process: {contador} -- expresión: {expr} -- valor {val}")
+                        print(f"Process: {contador} || expresión: {expr} ")
                         if isinstance(val, int) or val.is_integer():
                             val = int(val)
                             resultados.add(val)
